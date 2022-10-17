@@ -1,0 +1,22 @@
+{
+  "name": "umi-plugin-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
